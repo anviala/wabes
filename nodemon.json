@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "."
+    ],
+    "ignore": [
+        "node_modules",
+        "session"
+    ],
+    "ext": "js",
+    "exec": "node index.js"
+}
