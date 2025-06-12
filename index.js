@@ -2,7 +2,7 @@ import { makeWASocket, useMultiFileAuthState } from "@whiskeysockets/baileys";
 import pino from "pino";
 import readline from "readline";
 import fs from "fs";
-import { log } from "./lib/logger.js";
+import { log } from "./logger.js";
 
 function question(text = "Masukkan input") {
   return new Promise((resolve) => {
